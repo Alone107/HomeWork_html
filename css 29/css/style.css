@@ -1,0 +1,25 @@
+body{
+  background-color: rgb(190, 177, 177);
+}
+.container {
+
+/* border: 5px solid black; */
+height: 700px;
+width: 700px;
+margin-left: 25%;
+}
+
+.grid-1 {
+  /* border: 3px dotted yellow; */
+  margin: 30px;
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(2, 75px) minmax(100px, 200px) repeat(2,75px
+  );
+}
+
+.grid-1__item {
+  border: 3px solid rgb(81, 167, 191) ;
+  text-align: center;
+  padding: 15px;
+
+}
