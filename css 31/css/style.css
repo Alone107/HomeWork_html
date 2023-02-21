@@ -1,0 +1,43 @@
+.container {
+  /* position: relative; */
+  margin: 50px;
+  display: block;
+}
+
+.title { 
+font-size: 30px;
+text-align: center;
+font-style: italic;
+width: 100%;
+height: 100%;
+position: relative;
+left: 10px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+}
+
+.title::before {
+  content: "";
+  /* display: inline-block; */
+  background-color: blue;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 100px;
+  /* align-items: flex-end; */
+  /* justify-self: flex-start; */
+
+}
+
+.title::after {
+  content: "";
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  right: 100px;
+
+}
